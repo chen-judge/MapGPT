@@ -19,7 +19,7 @@ conda activate MapGPT
 pip install -r requirements.txt
 ```
 
-3. Data
+3. Data. 
 You can use the [annotations data](https://www.dropbox.com/sh/u3lhng7t2gq36td/AABAIdFnJxhhCg2ItpAhMtUBa?dl=0) of [DUET](https://github.com/cshizhe/VLN-DUET/) for testing.
 The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
 
@@ -54,8 +54,4 @@ Note that you should modify the following part in gpt4o.sh to set the path to yo
 --llm gpt-4o-2024-05-13
 --response_format json
 --max_tokens 1000
-```
-
-```
-
 ```
