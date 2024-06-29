@@ -1,13 +1,12 @@
 # MapGPT
 
-The official implementation of ACL 2024 paper.
-MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation.
-Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
-[[Paper]](https://arxiv.org/abs/2401.07314) [[Project]](https://chen-judge.github.io/MapGPT/)
+The official implementation of ACL 2024 paper. [[Paper]](https://arxiv.org/abs/2401.07314) [[Project]](https://chen-judge.github.io/MapGPT/)
 
+MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation.
+
+Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
 
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
-
 
 
 ## Setup
@@ -28,7 +27,7 @@ The observation images need to be collected in advance from the simulator. You c
 
 In addition to the reported results of GPT-4v in the paper, we have also included the implementation of latest GPT-4o which is faster and cheaper.
 
-You can run the following script where '--llm' is set as 'gpt-4o-2024-05-13' and '--response_format' is set as 'json'.
+You can run the following script where `--llm` is set as `gpt-4o-2024-05-13` and `--response_format` is set as `json`.
 
 ```bash
 bash scripts/gpt4o.sh
