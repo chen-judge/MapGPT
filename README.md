@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 Prepare data: 
 + You can follow [DUET](https://github.com/cshizhe/VLN-DUET/) and set the [annotations](https://www.dropbox.com/sh/u3lhng7t2gq36td/AABAIdFnJxhhCg2ItpAhMtUBa?dl=0) for testing val-unseen set.
-+ We sample a subset containing 72 scenes and 216 cases for quick and cost-effective testing. You can download the corresponding JSON file from this [link](https://drive.google.com/drive/folders/1RB1lsVrJYaCw0nLGCzxGsrPynNLKxySo?usp=sharing) and place it in the `datasets/R2R/annotations` directory. 
++ We sample a subset containing 72 scenes and 216 cases for quick and cost-effective testing. You can download the corresponding JSON file from this [link](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/Eq00RV04jXpNkwqowKh5mYABBTqBG1U2RXgQ7FvaGweJOQ?e=rL1d6p) and place it in the `datasets/R2R/annotations` directory. 
 + The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
 
 ## Inference
