@@ -8,7 +8,6 @@ Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
 
 Annual Meeting of the Association for Computational Linguistics (**ACL 2024**).
 
-If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
 <!--
 <p align="center">
@@ -19,6 +18,8 @@ If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mai
 <p align="center">
   <img src="figs/framework.png" alt="framework">
 </p>
+
+If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
 ## Setup
 
