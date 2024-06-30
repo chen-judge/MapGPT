@@ -1,10 +1,12 @@
 # MapGPT
 
-The official implementation of ACL 2024 paper. [[Paper]](https://arxiv.org/abs/2401.07314) [[Project]](https://chen-judge.github.io/MapGPT/)
+The official implementation of MapGPT. [[Paper]](https://arxiv.org/abs/2401.07314) [[Project]](https://chen-judge.github.io/MapGPT/)
 
-MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation.
+**MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation.**
 
 Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
+
+Annual Meeting of the Association for Computational Linguistics (**ACL 2024**).
 
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
@@ -66,3 +68,13 @@ Note that you should modify the following part in gpt4o.sh to set the path to yo
 --response_format json
 --max_tokens 1000
 ```
+
+## Citation
+<pre>
+@inproceedings{chen2024mapgpt,
+  title={MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation},
+  author={Chen, Jiaqi and Lin, Bingqian and Xu, Ran and Chai, Zhenhua and Liang, Xiaodan and Wong, Kwan-Yee K},
+  booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
+  year={2024}
+}
+</pre>
