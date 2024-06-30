@@ -37,6 +37,7 @@ Prepare data:
 + We sample a subset containing 72 scenes and 216 cases for quick and cost-effective testing. You can download the corresponding [MapGPT_72_scenes_processed.json](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/Eq00RV04jXpNkwqowKh5mYABBTqBG1U2RXgQ7FvaGweJOQ?e=rL1d6p) and place it in the `datasets/R2R/annotations` directory. 
 + The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
 
+GPT key: please set your API key [here](https://github.com/chen-judge/MapGPT/blob/00582fb08328646f9a9dd6b923c474cfb043d570/GPT/api.py#L10)
 ## Inference
 
 In addition to the reported results of GPT-4v in the paper, we have also included the implementation of latest GPT-4o which is faster and cheaper.
