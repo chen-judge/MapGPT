@@ -10,7 +10,7 @@ If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mai
 
 
 <div style="text-align:center">
-  <img src="figs/intro.png" alt="introduction" style="width:600px;height:420px;">
+  <img src="figs/intro.png" alt="introduction" style="width:560px;height:400px;">
 </div>
 
 ## Setup
