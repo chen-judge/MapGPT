@@ -9,9 +9,9 @@ Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
 
-<div style="text-align:center">
+<p align="center">
   <img src="figs/intro.png" alt="introduction" style="width:560px;height:400px;">
-</div>
+</p>
 
 ## Setup
 
