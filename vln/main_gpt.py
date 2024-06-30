@@ -62,7 +62,7 @@ def valid(args, val_envs, rank=0):
         print(f"Start evaluating {env_name}")
         prefix = 'submit' if args.detailed_output is False else 'detail'
         if os.path.exists(os.path.join(args.pred_dir, "%s_%s.json" % (prefix, env_name))):
-            print('Path already exist...')
+            print('Path already exists...')
             continue
         agent.logs = defaultdict(list)
         agent.env = env
