@@ -11,17 +11,19 @@ If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mai
 
 ## Setup
 
-1. Install Matterport3D simulators: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator). We use the latest version instead of v0.1.
-2. Requirements:
+Install Matterport3D simulators: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator). We use the latest version instead of v0.1.
+
+Install requirements:
 ```setup
 conda create -n MapGPT python=3.10
 conda activate MapGPT
 pip install -r requirements.txt
 ```
 
-3. Data. 
-You can use the [annotations data](https://www.dropbox.com/sh/u3lhng7t2gq36td/AABAIdFnJxhhCg2ItpAhMtUBa?dl=0) of [DUET](https://github.com/cshizhe/VLN-DUET/) for testing.
-The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
+Prepare data: 
++ You can follow [DUET](https://github.com/cshizhe/VLN-DUET/) and set the [annotations](https://www.dropbox.com/sh/u3lhng7t2gq36td/AABAIdFnJxhhCg2ItpAhMtUBa?dl=0) for testing val-unseen set.
++ We sample a subset containing 72 scenes and 216 cases for quick and cost-effective testing. You can download the corresponding JSON file from this [link](https://drive.google.com/drive/folders/1RB1lsVrJYaCw0nLGCzxGsrPynNLKxySo?usp=sharing) and place it in the `datasets/R2R/annotations` directory. 
++ The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
 
 ## Inference
 
@@ -35,7 +37,7 @@ bash scripts/gpt4o.sh
 
 The performance comparison between two implementations on a sampled subset is as follows. GPT-4o can achieve better NE but slightly worse SR.
 
-| LLM| NE | OSR | SR | SPL |
+| LLMs | NE | OSR | SR | SPL |
 | --- | --- | --- |  --- | --- |
 | GPT-4v | 5.62 | 57.9 | 47.7 | 38.1 |
 | GPT-4o | 5.11 | 56.9 | 46.3 | 37.8 |
