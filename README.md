@@ -9,6 +9,10 @@ Jiaqi Chen, Bingqian Lin, Ran Xu, Zhenhua Chai, Xiaodan Liang, Kwan-Yee K. Wong.
 If you have any questions, please contact me by email: [jqchen(at)cs.hku.hk](mailto:jqchen@cs.hku.hk)
 
 
+<div style="text-align:center">
+  <img src="figs/intro.png" alt="introduction" style="width:600px;height:420px;">
+</div>
+
 ## Setup
 
 Install Matterport3D simulators: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator). We use the latest version instead of v0.1.
