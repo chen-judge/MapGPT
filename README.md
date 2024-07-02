@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Prepare data: 
 + You can follow [DUET](https://github.com/cshizhe/VLN-DUET/) and set the [annotations](https://www.dropbox.com/sh/u3lhng7t2gq36td/AABAIdFnJxhhCg2ItpAhMtUBa?dl=0) for testing val-unseen set.
 + We sample a subset containing 72 scenes and 216 cases for quick and cost-effective testing. You can download the corresponding [MapGPT_72_scenes_processed.json](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/Eq00RV04jXpNkwqowKh5mYABBTqBG1U2RXgQ7FvaGweJOQ?e=rL1d6p) and place it in the `datasets/R2R/annotations` directory. 
-+ The observation images need to be collected in advance from the simulator. You can use your own saved images, and we are also preparing to upload them.
++ The observation images need to be collected in advance from the simulator. You can use your own saved images or use the [RGB_Observations.zip](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jadge_connect_hku_hk/Eq00RV04jXpNkwqowKh5mYABBTqBG1U2RXgQ7FvaGweJOQ?e=rL1d6p) we have processed.
 
 GPT key: please set your API key [here](https://github.com/chen-judge/MapGPT/blob/00582fb08328646f9a9dd6b923c474cfb043d570/GPT/api.py#L10).
 ## Inference
