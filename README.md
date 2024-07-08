@@ -75,7 +75,7 @@ Note that you should modify the following part in gpt4o.sh to set the path to yo
 <pre>
 @inproceedings{chen2024mapgpt,
   title={MapGPT: Map-Guided Prompting with Adaptive Path Planning for Vision-and-Language Navigation},
-  author={Chen, Jiaqi and Lin, Bingqian and Xu, Ran and Chai, Zhenhua and Liang, Xiaodan and Wong, Kwan-Yee K},
+  author={Chen, Jiaqi and Lin, Bingqian and Xu, Ran and Chai, Zhenhua and Liang, Xiaodan and Wong, Kwan-Yee~K.},
   booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics",
   year={2024}
 }
