@@ -90,8 +90,8 @@ class GPTNavAgent(BaseAgent):
         ended = np.array([False] * batch_size)
         just_ended = np.array([False] * batch_size)
 
-        previous_angle = [{'heading': 0.,
-                           'elevation': 0.} for ob in obs]
+        previous_angle = [{'heading': ob['heading'],
+                               'elevation': ob['elevation']} for ob in obs]
 
         self.prompt_manager.history = ['' for _ in range(self.args.batch_size)]
         self.prompt_manager.nodes_list = [[] for _ in range(self.args.batch_size)]
